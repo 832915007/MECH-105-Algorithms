@@ -1,3 +1,6 @@
+This code is to integrate data using Simpson's 1/3 rule with input vectors x and y. 
+Input sizes of x and y must be the same and x must be equally spaced.
+The output is the calcuated integral.
 function [I] = Simpson(x, y)
 % Numerical evaluation of integral by Simpson's 1/3 Rule
 % Inputs
