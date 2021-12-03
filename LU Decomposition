@@ -1,3 +1,6 @@
+This code will generate the LU factorization of a square matrix given an A and B matrix. 
+This code partially pivots and will only work with square matrices. 
+Will output if there are no errors and the lower, upper, and pivot matrices.
 function [L, U, P] = luFactor(A)
 % luFactor(A)
 %	LU decomposition with pivotiing
